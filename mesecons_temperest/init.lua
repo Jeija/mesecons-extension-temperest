@@ -97,6 +97,7 @@ end
 
 mesecon:register_on_signal_on(plug_on)
 mesecon:register_on_signal_off(plug_off)
+mesecon:register_effector("mesecons_temperest:mesecon_plug", "mesecons_temperest:mesecon_plug")
 
 minetest.register_node("mesecons_temperest:mesecon_plug", {
 	drawtype = "nodebox",
