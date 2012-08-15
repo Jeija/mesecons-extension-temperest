@@ -185,7 +185,7 @@ minetest.register_craft({
 })
 
 --TEMPEREST-INVERTER
-if ENABLE_TEMPEREST then
+if true then
 	minetest.register_node("mesecons_temperest:mesecon_inverter_off", {
 		drawtype = "nodebox",
 		paramtype = "light",
